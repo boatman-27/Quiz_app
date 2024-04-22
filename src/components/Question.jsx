@@ -25,7 +25,7 @@ function Question() {
       <div className="options">
         {options.map((option, index) => (
           <button
-            className={`btn btn-option ${index === answer ? "answer" : ""} ${
+            className={`btn btn-option ${option === answer ? "answer" : ""} ${
               hasAnswered
                 ? option === currentQuestion.correct_answer
                   ? "correct"
