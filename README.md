@@ -2,6 +2,8 @@
 
 This project is a dynamic quiz application built using React, allowing users to engage in customizable quizzes with various options for question quantity, difficulty level, and question type.
 
+This project was built on the Quiz App webiste made in Jonas Schmedtmann's react course mentioned below, but instead of calling the questions from a json file, i intigrated a form page that takes input from the user and communicates with the Open Trivia Database API based on the user's selected parameters.
+
 ## Features:
 
 1. **Customizable Quiz Parameters:** Users can specify the number of questions they want in the quiz, choose the difficulty level (easy, medium, or hard), and select the type of questions (multiple-choice or true/false).
@@ -107,3 +109,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## References
+
+I made this project with the help of Jonas Schmedtmann in his React course on Udemy: [React Course](https://www.udemy.com/course/the-ultimate-react-course/?couponCode=ST2MT43024)
